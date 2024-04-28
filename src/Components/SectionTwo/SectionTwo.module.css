@@ -1,0 +1,279 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.SectionTwo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #37373F;
+    padding: 40px;
+}
+.description {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.description h1 {
+    font-family: "Rubik" sans-serif;
+    font-size: 50px;
+    font-weight: 500 ;
+    font-style: normal;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.description h1 span {
+    font-weight: 700;
+    color: rgb(180, 156, 115);
+}
+.description p {
+    font-family: "Rubik" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(178, 178, 184);
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.description button {
+    width: 25%;
+    border-radius: 50px;
+    padding: 15px 12px;
+    color: white;
+    background-color: rgb(180, 156, 115);
+    border: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+
+}
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 15px;
+}
+.optionsec {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.optionsec h2{
+    font-family: "Rubik" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(180, 156, 115);
+    margin-bottom: 10px;
+}
+.optionsec p {
+    font-family: "Rubik" sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(178, 178, 184);
+    margin-bottom: 10px;
+}
+.more a {
+font-family: "Rubik" sans-serif;
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+color: rgb(180, 156, 115);
+margin-bottom: 10px;
+text-decoration: none;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    ::selection{
+        background-color: black;
+        color: white;
+    }
+}
+
+.sectionTwo {
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37373F;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px;
+}
+
+.description {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description h1 {
+    font-family: "Rubik" sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.description h1 span {
+    font-weight: 700;
+    color: rgb(180, 156, 115);
+}
+
+.description p {
+    font-family: "Rubik" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(178, 178, 184);
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.description button {
+    width: 25%;
+    border-radius: 50px;
+    padding: 15px 12px;
+    color: white;
+    background-color: rgb(180, 156, 115);
+    border: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+
+}
+
+.options {
+    width: 50%;
+
+}
+
+.optionsec {
+    width: 100%;
+
+
+}
+
+.optionsec i {
+    display: none;
+}
+
+.optionsec {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    .more {
+        padding-left: 30px;
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            display: flex;
+            gap: 10px;
+            text-decoration: none;
+
+        }
+    }
+
+    >div {
+        display: flex;
+        gap: 15px;
+
+        .iconsss {
+            padding: 18px;
+            font-size: 27px;
+            color: rgb(255, 255, 255);
+            background-color: #5F5F65;
+            border-radius: 100px;
+        }
+    }
+}
+
+h2 {
+    font-family: "Rubik" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(180, 156, 115);
+    margin-bottom: 10px;
+
+
+}
+
+.optionsec p {
+    font-family: "Rubik" sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(178, 178, 184);
+    margin-bottom: 10px;
+}
+
+.more a {
+    font-family: "Rubik" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(180, 156, 115);
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 270px) and (max-width: 991px) {
+    .container {
+        max-width: 100%;
+        display: flex;
+        padding: 0px;
+        padding-bottom: 40px;
+        flex-direction: column;
+    }
+    .description , .options{
+        width: 100%;
+    }
+}

@@ -1,0 +1,124 @@
+.sectionFive {
+    min-height: 100vh;
+    background-color: #37373F;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.fiveContainer {
+    width: 80%;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.fiveBoss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.card {
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 27px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+
+    h1 {
+        color: rgb(180, 156, 115);
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    p {
+        color:
+            rgb(128, 128, 128);
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    ul {
+        transition: 0.5s;
+        :hover {
+            .iconRight {
+        transition: 0.3s;
+
+                color: aliceblue;
+                padding: 2px;
+                background-color: #B49C73;
+            }
+            transition: 0.5s;
+
+            color: #B49C73;
+        }
+    }
+
+    li {
+        display: flex;
+        height: 5px;
+        gap: 8px;
+        list-style: none;
+
+    }
+
+    a {
+        text-decoration: none;
+        color:
+            black;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.fiveIcon {
+    padding: 12px;
+    background-color: #B49C73;
+    border-radius: 100px;
+    color: white;
+
+}
+
+.fiveTop {
+    text-align: start;
+    width: 100%;
+
+    h4 {
+        font-size: 40px;
+        color: white;
+
+        span {
+            color: #B49C73;
+        }
+
+    }
+}
+
+@media screen and (min-width: 270px) and (max-width: 991px) {
+    .fiveBoss {
+        img {
+            width: 80%;
+        }
+
+        padding: 0%;
+
+        flex-direction: column;
+
+    }
+}

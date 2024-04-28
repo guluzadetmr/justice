@@ -1,0 +1,65 @@
+.sectionFour {
+    min-height: 100vh;
+    background-color: #2D2D34;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.fourContainer {
+    width: 80%;
+    gap: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.fourIcon {
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.fourBoss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    img {
+        width: 30%;
+    }
+}
+
+.fourTop {
+
+    h4 {
+        font-size: 40px;
+        color: white;
+
+        span {
+            color: #B49C73;
+        }
+
+    }
+}
+
+@media screen and (min-width: 270px) and (max-width: 991px) {
+    .fourBoss {
+        img {
+            width: 80%;
+        }
+
+        padding: 0%;
+
+        flex-direction: column;
+
+    }
+
+    .fourIcon {
+        display: none;
+    }
+}
